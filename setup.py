@@ -14,5 +14,6 @@ setup(
     author_email='jeff@jeffknupp.com',
     description='Automated REST APIs for legacy (existing) databases',
     long_description='long desc',
-    packages=['skeleton']
+    packages=['skeleton'],
+    scripts=['scripts/run_skeleton.py']
 )
